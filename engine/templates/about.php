@@ -1,0 +1,1 @@
+About us! Our phone: <?=$phone?>
