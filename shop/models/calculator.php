@@ -1,11 +1,11 @@
-<?php
+<?php 
 
 function add($arg1, $arg2)
 {
     return $arg1 + $arg2;
 }
 
-function subtract($arg1, $arg2)
+function sub($arg1, $arg2)
 {
     return $arg1 - $arg2;
 }
@@ -17,23 +17,21 @@ function multiply($arg1, $arg2)
 
 function divide($arg1, $arg2)
 {
-    return ($arg2 !== 0) ? $arg1 / $arg2 : "error: division by zero!"; 
+    return ($arg2 != 0) ? $arg1 / $arg2 : "error: division by zero!"; 
 }
 
 function mathOperation($arg1, $arg2, $operation) 
 {
     switch($operation) {
-        case "add":
+        case "+":
             return add($arg1, $arg2);
-        case "subtract":
-            return subtract($arg1, $arg2);
-        case "multiply":
+        case "-":
+            return sub($arg1, $arg2);
+        case "*":
             return multiply($arg1, $arg2);
-        case "divide":
+        case "/":
             return divide($arg1, $arg2);
         default:
             return "There is no such math operation";
         }
 }
-
-echo mathOperation(10, 0, "divide");
