@@ -1,0 +1,167 @@
+body {
+    background: rgb(214, 236, 241) url(/img/white-wall.png);
+    color: rgb(4, 16, 24);
+	font: normal 1.2em Verdana,Arial,sans-serif;
+	height: 100%;
+}
+
+#main {
+	width: 1000px;
+	margin:0 auto;
+	padding: 15px;
+}
+
+.menu {
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+
+.menu_link {
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+.post_title h2 {
+	font: normal 2em Arial,sans-serif;
+	margin: 10px;
+	padding: 0;
+	text-align: center;
+}
+
+.image {
+	display: flex;
+    justify-content: center;
+}
+
+.gallery_img {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.gallery_img img {
+	margin:5px;
+	border:3px solid #fff;
+}
+a.photo:hover img{
+	border:3px solid rgb(17, 37, 75);
+}
+a {
+    color: rgb(0, 9, 61);
+}
+
+a:hover img {
+border:3px solid rgb(17, 37, 75);
+animation: movement 0.2s infinite;
+-webkit-animation: movement 0.2s infinite;
+}
+
+.upload_img_form {
+	text-align: center;
+	padding: 10px;
+}
+
+.form {
+	padding: 20px;
+}
+
+.image {
+	padding: 20px;}
+
+.views {
+	font-size: 16px;
+	text-align: center;
+	margin: 0px 0 20px 0;
+	color: rgb(17, 37, 75);
+}
+
+.form_catalog {
+	display: flex;
+	flex-direction: column;
+	margin: 7px;
+}
+
+.form_text {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form_text p {
+	font-size: 15px;
+	margin: 0;
+}
+
+.submit_btn {
+    width: 80px;
+	align-self: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.item {
+	margin-top: 30px;
+}
+
+.item img {
+	margin-right: 20px;
+}
+
+.item_desc {
+	display: flex;
+	justify-content: space-between;
+}
+
+.item_txt {
+	text-align: right;
+	margin-left: 20px;
+
+}
+
+.form_fd input, textarea {
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.list_fd {
+	margin-top: 20px;
+}
+
+.one_fd {
+	margin-bottom: 10px;
+}
+
+.list_fd button {
+	vertical-align: text-bottom;
+}
+
+.list_fd a {
+	text-decoration: none;
+}
+
+.form_cart {
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.cart_text {
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+.signout {
+	text-decoration: none;
+}
+
+.table {
+	border: 1px solid grey;
+}
+
+th, td {
+	border: 1px solid grey;
+	padding: 10px 15px;
+}
+
+.checkout {
+	margin: 10px;
+}
